@@ -1,4 +1,4 @@
-# Three-dimentional-bead-tracking
+# Three-dimensional-bead-tracking
 MATLAB code for analyzing off-focus brightfield images of microspheres in three dimensions using a look-up-table of reference images
 This MATLAB code functions to three-dimensionally track non-fluorescent beads using quadrant interpolation and a look up table of off-focus images1. This code is set up to process multiple videos back-to-back with frames stored as grayscale tif images. The images can be stored in a different file from this code.
 
