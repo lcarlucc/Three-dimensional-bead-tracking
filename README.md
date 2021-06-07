@@ -1,10 +1,19 @@
 # Three-dimensional-bead-tracking
+# Laura Carlucci, Keith Johnson, Wendy Thomas
+
+Utilizing methods described in :
+
+Manuel Guizar-Sicairos, Samuel T. Thurman, and James R. Fienup, "Efficient subpixel image registration algorithms," Opt. Lett. 2008. 33, 156-158.
+Van Loenhout MTJ, Kerssemakers JWJ, De Vlaminck I, Dekker C. Non-bias-limited tracking of spherical particles, enabling nanometer resolution at low magnification. Biophys J. 2012;102(10):2362-2371.
+Zhang Z, Menq C-H. Three-dimensional particle tracking with subnanometer resolution using off-focus images. Appl Opt. 2008;47(13):2361-2370. 
+
 MATLAB code for analyzing off-focus brightfield images of microspheres in three dimensions using a look-up-table of reference images
 This MATLAB code functions to three-dimensionally track non-fluorescent beads using quadrant interpolation and a look up table of off-focus images1. This code is set up to process multiple videos back-to-back with frames stored as grayscale tif images. The images can be stored in a different file from this code.
 
  DOI: 10.5281/zenodo.4724130
 
 This code requires the ‘Computer Vision Toolbox’ add-on.
+
 
 Image names
  It processes images with the following name convention: Basenames, video number, _ , 3 digit frame number. The first frame in a video does not have to be labeled as 001.
